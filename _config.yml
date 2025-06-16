@@ -21,7 +21,7 @@
 title: "SIGMA Recon - Intelligence & Analysis" 
 email: "rosswaguespack@gmail.com" 
 description: "Geopolitical strategy. Structured analysis. Daily & weekly briefs." 
-baseurl:
+
 baseurl: "/SIGMA_Recon"
 url: "https://monster52.github.io" 
 twitter_username: jekyllrb
