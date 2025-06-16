@@ -5,21 +5,163 @@
 	<link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/sigma_recon_icon.ico">
 	<title>{{ page.title }} | SIGMA Recon</title>
 	<link rel="stylesheet" href="{{ site.baseurl }}/style.css">
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Bootstrap JS (place before closing </body> tag) -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 	{% seo %}
 </head>
 <body>
-	<header style="display: flex; align-items: center; gap: 1rem;">
-		
-		<div>
-			<h1><img src="{{ site.baseurl }}/sigma_recon_192.png" alt="SIGMA Recon Logo" style="height: 48px; width: auto; "><a href="{{ site.baseurl }}/">SIGMA Recon Intelligence & Analysis</a></h1>
-			<nav>
-				<a href="{{ site.baseurl }}/echo/">ECHO Watch</a> |
-				<a href="{{ site.baseurl }}/sigma/">SIGMA Briefs</a> |
-				<a href="{{ site.baseurl }}/ares/">ARES Dossiers</a> |
-				<a href="{{ site.baseurl }}/about/">Methodology</a>
-			</nav>
-		</div>
-	</header>
-	<main>{{ content }}</main>
+	<nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-brand">
+                <div class="nav-logo">ΣR</div>
+                <span class="nav-title">SIGMA RECON</span>
+            </a>
+            
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="{{ site.baseurl }}" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a href="{{ site.baseurl }}/echo/" class="nav-link">Echo Watch</a></li>
+                <li class="nav-item"><a href="{{ site.baseurl }}/sigma/" class="nav-link">Sigma Briefs</a></li>
+                <li class="nav-item"><a href="{{ site.baseurl }}/ares/" class="nav-link">Ares Dossiers</a></li>
+                <li class="nav-item"><a href="{{ site.baseurl }}/about/" class="nav-link">Methodology</a></li>
+                <li class="nav-item">
+                    <div class="status-badge">
+                        <div class="status-dot"></div>
+                        <span>ONLINE</span>
+                    </div>
+                </li>
+            </ul>
+            
+            <div class="nav-toggle" onclick="toggleMobileMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <section class="hero-section fade-in">
+            <h1 class="hero-title">Strategic Intelligence Portal</h1>
+            <p class="hero-subtitle">Access comprehensive intelligence analysis, operational briefings, and strategic insights for decision makers and intelligence professionals.</p>
+        </section>
+
+        <section class="fade-in">
+            <h2 class="section-title">Latest Intelligence Briefs</h2>
+            <div class="briefs-grid">
+                <article class="brief-card" onclick="openBrief('geopolitical-tensions-asia')">
+                    <div class="brief-header">
+                        <span class="brief-category">GEOPOLITICAL</span>
+                        <span class="brief-date">June 15, 2025</span>
+                    </div>
+                    <h3 class="brief-title">Rising Tensions in South China Sea: Strategic Implications</h3>
+                    <p class="brief-excerpt">Analysis of recent naval movements and diplomatic developments affecting regional stability and trade routes. Key stakeholders include...</p>
+                    <div class="brief-meta">
+                        <span class="read-time">📖 8 min read</span>
+                        <span>Priority: High</span>
+                    </div>
+                </article>
+
+                <article class="brief-card" onclick="openBrief('cyber-threat-assessment')">
+                    <div class="brief-header">
+                        <span class="brief-category">CYBER</span>
+                        <span class="brief-date">June 14, 2025</span>
+                    </div>
+                    <h3 class="brief-title">Advanced Persistent Threat Groups: Q2 2025 Assessment</h3>
+                    <p class="brief-excerpt">Comprehensive review of emerging cyber threat actors, their capabilities, and potential targets across critical infrastructure sectors...</p>
+                    <div class="brief-meta">
+                        <span class="read-time">📖 12 min read</span>
+                        <span>Priority: Critical</span>
+                    </div>
+                </article>
+
+                <article class="brief-card" onclick="openBrief('economic-intelligence')">
+                    <div class="brief-header">
+                        <span class="brief-category">ECONOMIC</span>
+                        <span class="brief-date">June 13, 2025</span>
+                    </div>
+                    <h3 class="brief-title">Global Supply Chain Vulnerabilities: Strategic Assessment</h3>
+                    <p class="brief-excerpt">In-depth analysis of critical supply chain dependencies and potential disruption scenarios affecting national security interests...</p>
+                    <div class="brief-meta">
+                        <span class="read-time">📖 15 min read</span>
+                        <span>Priority: Medium</span>
+                    </div>
+                </article>
+
+                <article class="brief-card" onclick="openBrief('terrorism-update')">
+                    <div class="brief-header">
+                        <span class="brief-category">SECURITY</span>
+                        <span class="brief-date">June 12, 2025</span>
+                    </div>
+                    <h3 class="brief-title">Transnational Terror Networks: Emerging Patterns</h3>
+                    <p class="brief-excerpt">Analysis of evolving terror group methodologies, recruitment strategies, and operational patterns across multiple regions...</p>
+                    <div class="brief-meta">
+                        <span class="read-time">📖 10 min read</span>
+                        <span>Priority: High</span>
+                    </div>
+                </article>
+
+                <article class="brief-card" onclick="openBrief('climate-security')">
+                    <div class="brief-header">
+                        <span class="brief-category">CLIMATE</span>
+                        <span class="brief-date">June 11, 2025</span>
+                    </div>
+                    <h3 class="brief-title">Climate Change as Security Multiplier: Regional Impact Analysis</h3>
+                    <p class="brief-excerpt">Assessment of how climate-related challenges are creating new security risks and exacerbating existing conflicts in vulnerable regions...</p>
+                    <div class="brief-meta">
+                        <span class="read-time">📖 18 min read</span>
+                        <span>Priority: Medium</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        // Mobile menu toggle
+        function toggleMobileMenu() {
+            const navMenu = document.querySelector('.nav-menu');
+            const navToggle = document.querySelector('.nav-toggle');
+            
+            navMenu.classList.toggle('active');
+            navToggle.classList.toggle('active');
+        }
+
+        // Close mobile menu when clicking nav links
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                const navMenu = document.querySelector('.nav-menu');
+                const navToggle = document.querySelector('.nav-toggle');
+                navMenu.classList.remove('active');
+                navToggle.classList.remove('active');
+            });
+        });
+
+        function openBrief(briefId) {
+            console.log(`Opening brief: ${briefId}`);
+            // For Jekyll: window.location.href = `/briefs/${briefId}/`;
+        }
+
+        // Add animation delays to cards
+        document.addEventListener('DOMContentLoaded', function() {
+            const cards = document.querySelectorAll('.brief-card');
+            cards.forEach((card, index) => {
+                card.style.animationDelay = `${index * 0.1}s`;
+                card.classList.add('fade-in');
+            });
+        });
+
+        // Professional click feedback
+        document.querySelectorAll('.brief-card').forEach(card => {
+            card.addEventListener('mousedown', function() {
+                this.style.transform = 'translateY(0) scale(0.98)';
+            });
+            
+            card.addEventListener('mouseup', function() {
+                this.style.transform = '';
+            });
+        });
+    </script>
 </body>
 </html>
