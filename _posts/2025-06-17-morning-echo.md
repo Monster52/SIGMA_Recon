@@ -6,7 +6,7 @@ tags: [ECHO]
 author: SIGMA Watch Group 
 ---
 
-### 🔥 Priority Alerts
+### Priority Alerts
 
 - **Iran–Israel Escalation:** Iran launched its ninth wave of drones and dozens of ballistic missiles at Israel. Reports confirm civilian casualties and damage to U.S. diplomatic assets in Tel Aviv.  
 - **U.S. Naval Movements:** USS Nimitz joins USS Carl Vinson in the Eastern Mediterranean. Multiple Aegis destroyers repositioned to Arabian Sea for layered missile defense.  
@@ -16,7 +16,7 @@ author: SIGMA Watch Group
 
 ---
 
-### 🌍 Regional Snapshot
+### Regional Snapshot
 
 #### **Iran–Israel**
 - **What’s happening:** Iran pursues graduated escalation—waves of drones, missiles, and rhetoric.
@@ -50,7 +50,7 @@ author: SIGMA Watch Group
 
 ---
 
-### 🧠 Analyst Summary
+### Analyst Summary
 
 We are seeing multi-theater escalation with maritime and cyber dimensions expanding. Iran’s asymmetric pressure is being mirrored by U.S. carrier deployments, while electronic warfare and disinformation campaigns complicate attribution. The Strait of Hormuz represents the highest-risk flashpoint—particularly if AIS interference leads to kinetic mishaps.
 
@@ -58,7 +58,7 @@ Global powers appear to be entering a **pre-decisional standoff**—testing thre
 
 ---
 
-### 🔮 Forecast
+### Forecast
 
 - **Gulf of Oman:** 65% chance of verified attack or mechanical mishap announcement within 24–48 hours.
 - **Iran–Israel:** Continued limited missile and drone exchanges (90% confidence).
