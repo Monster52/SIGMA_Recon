@@ -1,9 +1,10 @@
+<!-- _layours/post.html -->
 ---
-layout: posts
+layout: post
 title: "16 June 2025 ECHO Watch"
-date: 2025-06-16 10:00:00 -0500
+date: 2025-06-16
 tags: [ECHO]
-category: ECHO Watch
+categoryies: echo
 priority: Low
 author: SIGMA Watch Group 
 excerpt: "Iran launched its ninth wave of drones and dozens of ballistic missiles at Israel"
