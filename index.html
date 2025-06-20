@@ -11,7 +11,12 @@ title: SIGMA Recon - Strategic Intelligence Portal
 <section class="fade-in">
   <h2 class="section-title">Latest Intelligence Briefs</h2>
   <div class="briefs-grid">
-    {% for post in site.categories.echo limit:6 %}
+    {% assign echo_posts = site.categories.echo %}
+    {% assign ares_posts = site.categories.ares %}
+    {% assign combined_posts = echo_posts | concat: ares_posts %}
+    {% assign sorted_posts = combined_posts | sort: 'date' | reverse %}
+   
+    {% for post in sorted_posts limit:6 %}
       <article class="brief-card" onclick="window.location.href='{{ post.url | relative_url }}'">
         <div class="brief-header">
           <span class="brief-category">{{ post.category | upcase | default: "INTELLIGENCE" }}</span>

@@ -6,7 +6,7 @@ permalink: /echo/
 
 <div class="tag-page">
   <header class="tag-header">
-    <h1 class="tag-title">Echo Posts</h1>
+    <h1 class="tag-title">Echo Watch</h1>
     <p class="tag-description">All posts tagged with ECHO</p>
     <div class="post-count">{{ site.tags.ECHO.size }} posts found</div>
   </header>
