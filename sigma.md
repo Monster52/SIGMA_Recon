@@ -4,33 +4,54 @@ title: SIGMA Brief
 permalink: /sigma/
 ---
 
-<section class="page-header fade-in">
-    <h1 class="page-title">Sigma Briefs</h1>
-    <p class="page-subtitle">Complete intelligence briefing archive</p>
-</section>
+<div class="tag-page">
+  <header class="tag-header">
+    <h1 class="tag-title">SIGMA Briefs</h1>
+    <p class="tag-description">All posts tagged with SIGMA</p>
+    <div class="post-count">{{ site.tags.SIGMA.size }} posts found</div>
+  </header>
 
-<section class="content fade-in">
-    <h2>Intelligence Briefings</h2>
-    <p>Access our comprehensive archive of intelligence briefings covering geopolitical developments, security threats, economic analysis, and strategic assessments.</p>
+  <div class="posts-grid">
+    {% for post in site.tags.SIGMA %}
+      <article class="post-card">
+        <div class="post-card-header">
+          <h2 class="post-card-title">
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          </h2>
+          <div class="post-card-meta">
+            <time datetime="{{ post.date | date_to_xmlschema }}">
+              {{ post.date | date: "%B %d, %Y" }}
+            </time>
+            {% if post.author %}
+              <span class="post-author">by {{ post.author }}</span>
+            {% endif %}
+          </div>
+        </div>
+        
+        <div class="post-card-content">
+          {% if post.excerpt %}
+            <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+          {% endif %}
+        </div>
+        
+        <div class="post-card-footer">
+          {% if post.tags.size > 0 %}
+            <div class="post-tags">
+              {% for tag in post.tags %}
+                <span class="tag">{{ tag }}</span>
+              {% endfor %}
+            </div>
+          {% endif %}
+          <a href="{{ post.url | relative_url }}" class="read-more-btn">Read More →</a>
+        </div>
+      </article>
+    {% endfor %}
+  </div>
 
-    <h2>Categories</h2>
-    <p>Our briefings are organized into several key categories:</p>
-    
-    <h3>Geopolitical</h3>
-    <p>Regional and global political developments affecting national security interests.</p>
-    
-    <h3>Cyber Security</h3>
-    <p>Threat assessments, vulnerability reports, and cyber warfare intelligence.</p>
-    
-    <h3>Economic Intelligence</h3>
-    <p>Economic trends, trade analysis, and financial security assessments.</p>
-    
-    <h3>Security & Terrorism</h3>
-    <p>Counter-terrorism intelligence and security threat assessments.</p>
-    
-    <h3>Climate Security</h3>
-    <p>Climate-related security implications and environmental threats.</p>
-
-    <h2>Classification Levels</h2>
-    <p>Briefings are classified according to sensitivity levels. Ensure you have appropriate clearance before accessing restricted materials.</p>
-</section>
+  {% if site.tags.SIGMA.size == 0 %}
+    <div class="no-posts">
+      <h3>No posts found</h3>
+      <p>There are no posts tagged with SIGMA yet.</p>
+    </div>
+  {% endif %}
+</div>

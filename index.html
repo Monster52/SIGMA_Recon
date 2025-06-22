@@ -13,10 +13,11 @@ title: SIGMA Recon - Strategic Intelligence Portal
   <div class="briefs-grid">
     {% assign echo_posts = site.categories.echo %}
     {% assign ares_posts = site.categories.ares %}
-    {% assign combined_posts = echo_posts | concat: ares_posts %}
+    {% assign sigma_posts = site.categories.sigma %}
+    {% assign combined_posts = echo_posts | concat: ares_posts | concat: sigma_posts %}
     {% assign sorted_posts = combined_posts | sort: 'date' | reverse %}
    
-    {% for post in sorted_posts limit:6 %}
+    {% for post in sorted_posts limit:9 %}
       <article class="brief-card" onclick="window.location.href='{{ post.url | relative_url }}'">
         <div class="brief-header">
           <span class="brief-category">{{ post.category | upcase | default: "INTELLIGENCE" }}</span>
