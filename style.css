@@ -404,3 +404,47 @@
     color: #e0e0e0;
   }
 }
+
+/* Morning Flash Styling */
+.morning-flash-container {
+  background-color: #1a1a1a;
+  border-left: 4px solid #e63946;
+  padding: 20px;
+  margin-bottom: 30px;
+  color: #f1f1f1;
+  font-family: 'Inter', sans-serif;
+}
+
+.morning-flash-container .section-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.flash-bullets {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+
+.flash-bullets li {
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+.flash-subsections h4 {
+  margin-bottom: 5px;
+  color: #e0e0e0;
+}
+
+.flash-subsections p,
+.flash-subsections ul {
+  margin-top: 0;
+  font-size: 0.95rem;
+  color: #cccccc;
+}
+
+.flash-subsections ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
