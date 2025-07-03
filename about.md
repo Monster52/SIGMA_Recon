@@ -4,166 +4,51 @@ title: About
 permalink: /about/
 ---
 
-# SIGMA Recon – Intelligence Methodology
+# About SIGMA Recon  
+**Signal Over Noise. Clarity Over Chaos.**
+
+SIGMA Recon is not just an intelligence platform—it’s a posture. Built for operators, analysts, and decision-makers who move in real time, SIGMA delivers structured clarity in a world saturated with noise.
+
+We don’t chase headlines. We track indicators.  
+We don’t predict the future—we prepare for it.
 
 ---
 
+## Our Methodology  
+**The SIGMA Recon Framework is built on five core principles:**
 
-## Purpose & Scope
+### 1. Intelligence Without Emotion  
+We strip away narrative bias and ideological framing. What remains is signal: observable behavior, strategic intent, and operational consequence.
 
+### 2. Structured Situational Awareness  
+Every brief is built on a disciplined format—Morning Flash, ECHO Watch PM, Threat Pulse—designed to deliver clarity, not clutter.
 
-SIGMA Recon is designed to deliver **high-integrity, modular intelligence** products across six strategic regions: Russia, Ukraine, China, Iran, Israel, and North Korea. This methodology outlines the **analytical tradecraft**, **source handling**, **forecasting techniques**, and **formatting standards** used to produce ECHO Watch briefs, SIGMA Strategic Reports, and ARES Dossiers.
+### 3. Forward-Looking Indicators  
+We don’t just report what happened. We track what’s shifting: troop movements, proxy signals, diplomatic posture, cyber probes.
 
+### 4. Red Cell Thinking  
+We challenge assumptions. Every week, we publish contrarian takes that expose blind spots and question consensus narratives.
 
----
-
-
-## Core Principles
-
-
-- **BLUF Priority** (Bottom Line Up Front)  
-- **Structured Analytic Techniques (SATs)**  
-- **Superforecasting Discipline**  
-- **Clarity > Complexity**  
-- **Intelligence First, Interface Second**
-
+### 5. Tactical Utility  
+SIGMA isn’t academic. It’s operational. Every product is designed to be used—on the ground, in the room, or in the moment.
 
 ---
 
+## Our Products
 
-## Analytical Tradecraft
-
-
-We apply tools from U.S. and allied intelligence communities, including:
-
-
-- **CIA Tradecraft Primer (2009)**  
-- **Psychology of Intelligence Analysis** (Heuer)  
-- **Grey Dynamics SAT Framework**  
-- **DIA & Belfer Center Guidelines**
-
-
-**Techniques Used:**
-
-
-- Key Assumptions Check  
-- Analysis of Competing Hypotheses (ACH)  
-- Devil’s Advocacy & Red Teaming  
-- Alternative Futures & Indicators  
-- Outside-In Thinking
-
-
-All SIGMA analysts are trained to apply these techniques systematically across briefs.
-
+| Product           | Description                                                       | Cadence         |
+|------------------|-------------------------------------------------------------------|-----------------|
+| **Morning Flash** | 3 Big Things + What to Know + What to Watch                      | Daily @ 0630 CT |
+| **ECHO Watch PM** | Full-spectrum situational brief with predictive modeling         | Daily @ 1800 CT |
+| **Threat Pulse**  | Weekly escalation forecast + regional posture map                | Fridays         |
+| **Red Cell**      | Contrarian brief challenging dominant narratives                 | Weekly          |
+| **Cass Brief**    | 60-second audio SITREP from our synthetic analyst                | Optional        |
 
 ---
 
+## Our Ethos  
+We believe in clarity over chaos.  
+Posture over panic.  
+Signal over noise.  
 
-## Forecasting Approach
-
-
-We integrate models from **Superforecasting** (Tetlock):
-
-
-- Probabilistic Forecasting (0–100%)  
-- Calibration & Brier Scoring  
-- Confidence Intervals  
-- Signal Identification & Scenario Trees  
-- Updating Forecasts with New Intel
-
-
-Each ECHO Watch may include a **7-day regional forecast** and soon, rolling **24-hour predictive updates**.
-
-
----
-
-
-## Source Handling
-
-
-- **Open Source Intelligence (OSINT)** only  
-- Sources are evaluated for:  
-  - Credibility  
-  - Bias  
-  - Redundancy  
-  - Timeliness  
-- Each brief contains a **Source Index** for traceability
-
-
----
-
-
-## Cognitive Bias Mitigation
-
-
-SIGMA analysts are trained to detect and reduce:
-
-
-- Confirmation bias  
-- Anchoring  
-- Satisficing  
-- Mirror imaging  
-- Availability bias  
-
-
-Biases are mitigated through structured techniques and peer review cycles.
-
-
----
-
-
-## Output Formats
-
-
-SIGMA products are standardized across three key output types:
-
-
-### 1. ECHO Watch
-- Daily tactical brief  
-- BLUF format  
-- Forecast section  
-- Analyst Note  
-- Markdown export for Obsidian
-
-
-### 2. SIGMA Brief
-- Weekly strategic assessment  
-- WHO/WHAT/WHEN/WHERE/WHY structure  
-- ARES Dossier highlights  
-- Market + Geo-economic section  
-- Visuals and source appendix
-
-
-### 3. ARES Dossiers
-- Structured actor profiles (Capability, Intent, Posture, Behavior)  
-- Threat modeling and behavioral forecast
-
-
----
-
-
-## Tools & Stack
-
-
-- Markdown-first formatting (Obsidian-compatible)  
-- GitHub/Jekyll for web publishing (under development)  
-- LLM-Augmented Drafting (GPT-4o with SIGMA custom layer)  
-- Human verification remains standard
-
-
----
-
-
-## Credibility and Review
-
-
-- All intelligence products are reviewed by a second analyst  
-- Forecasts are updated based on unfolding indicators  
-- Transparency and auditability are prioritized
-
-
----
-
-**SIGMA Recon: Intelligence First. Interface Second.**  
-*Clarity, structure, and integrity are non-negotiable.*
-
+SIGMA Recon exists to serve those who move first, think clearly, and act with intent.
