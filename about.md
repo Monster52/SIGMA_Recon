@@ -4,51 +4,25 @@ title: About
 permalink: /about/
 ---
 
-# About SIGMA Recon  
-**Signal Over Noise. Clarity Over Chaos.**
+# About SIGMA Recon
 
-SIGMA Recon is not just an intelligence platform—it’s a posture. Built for operators, analysts, and decision-makers who move in real time, SIGMA delivers structured clarity in a world saturated with noise.
+**SIGMA Recon is a strategic intelligence platform dedicated to providing timely, and objective open-source intelligence (OSINT) to the public.**
 
-We don’t chase headlines. We track indicators.  
-We don’t predict the future—we prepare for it.
+Our mission is to illuminate the global threat landscape by delivering clear, concise, and context-aware analysis on the world's most critical geopolitical and military developments. We cut through the noise to identify the signals that matter.
 
 ---
 
-## Our Methodology  
-**The SIGMA Recon Framework is built on five core principles:**
+### Our Focus
 
-### 1. Intelligence Without Emotion  
-We strip away narrative bias and ideological framing. What remains is signal: observable behavior, strategic intent, and operational consequence.
+We maintain a constant watch over key strategic regions and conflict zones, prioritizing the identification of significant military movements, geopolitical shifts, and emerging threats. Our core areas of coverage include:
 
-### 2. Structured Situational Awareness  
-Every brief is built on a disciplined format—Morning Flash, ECHO Watch PM, Threat Pulse—designed to deliver clarity, not clutter.
+* **Russia-Ukraine:** Tracking battlefield developments, logistical movements, and the strategic calculus of both sides.
+* **Israel-Iran:** Monitoring the proxy war, direct state-on-state actions, and the region's fragile security architecture.
+* **China-Taiwan:** Analyzing PLA activity, "gray zone" tactics, and cross-strait political dynamics.
+* **North Korea:** Assessing missile development, regime stability, and illicit activities.
 
-### 3. Forward-Looking Indicators  
-We don’t just report what happened. We track what’s shifting: troop movements, proxy signals, diplomatic posture, cyber probes.
+### Our Methodology
 
-### 4. Red Cell Thinking  
-We challenge assumptions. Every week, we publish contrarian takes that expose blind spots and question consensus narratives.
-
-### 5. Tactical Utility  
-SIGMA isn’t academic. It’s operational. Every product is designed to be used—on the ground, in the room, or in the moment.
+Our analysis is built on a foundation of disciplined, multi-source intelligence collection. We leverage a wide array of publicly available information, which is then processed, cross-referenced, and synthesized by our analytical team. Our briefs are structured to provide a clear "Bottom Line Up Front" (BLUF), ensuring our clients can immediately grasp the strategic implications.
 
 ---
-
-## Our Products
-
-| Product           | Description                                                       | Cadence         |
-|------------------|-------------------------------------------------------------------|-----------------|
-| **Morning Flash** | 3 Big Things + What to Know + What to Watch                      | Daily @ 0630 CT |
-| **ECHO Watch PM** | Full-spectrum situational brief with predictive modeling         | Daily @ 1800 CT |
-| **Threat Pulse**  | Weekly escalation forecast + regional posture map                | Fridays         |
-| **Red Cell**      | Contrarian brief challenging dominant narratives                 | Weekly          |
-| **Cass Brief**    | 60-second audio SITREP from our synthetic analyst                | Optional        |
-
----
-
-## Our Ethos  
-We believe in clarity over chaos.  
-Posture over panic.  
-Signal over noise.  
-
-SIGMA Recon exists to serve those who move first, think clearly, and act with intent.
