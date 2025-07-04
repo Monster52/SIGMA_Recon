@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: about
 title: About
 permalink: /about/
 ---
@@ -24,5 +24,3 @@ We maintain a constant watch over key strategic regions and conflict zones, prio
 ### Our Methodology
 
 Our analysis is built on a foundation of disciplined, multi-source intelligence collection. We leverage a wide array of publicly available information, which is then processed, cross-referenced, and synthesized by our analytical team. Our briefs are structured to provide a clear "Bottom Line Up Front" (BLUF), ensuring our clients can immediately grasp the strategic implications.
-
----

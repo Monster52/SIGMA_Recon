@@ -1,0 +1,57 @@
+---
+layout: default
+---
+
+<head>
+  <style>
+  	body {
+    background-color: #121212;
+    color: #EAEAEA;
+    font-family: 'Inter', sans-serif; /* Or your site's font */
+}
+
+.about-container {
+    max-width: 850px;
+    margin: 4rem auto; /* Centers the container with space top/bottom */
+    padding: 0 2rem; /* Adds space on the sides for smaller screens */
+}
+
+h1, h2, h3 {
+    color: #FFFFFF;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+p {
+    font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 3rem 0;
+}
+
+a {
+    color: #6cffc7; /* Your accent green/teal color */
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+  </style>
+</head>
+
+<body>
+	<main>
+		{{ content }}
+	</main>
+</body>
